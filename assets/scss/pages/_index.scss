@@ -1,12 +1,89 @@
 .banner {
-  background: url('../images/home-header.png');
+  background: url('../images/home-header.png') center;
   background-size: cover;
   padding: 296px 0;
+
   &_content {
     display: flex;
     flex-direction: column;
   }
+
   a {
     padding: 6px 12px;
+  }
+}
+
+.introduction {
+  padding: 80px 0;
+
+  @media (max-width: 767px) {
+    padding: 40px 0;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 32px;
+
+    @media (max-width: 767px) {
+      font-size: 24px !important;
+    }
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.introduction_card {
+  margin-bottom: 24px;
+
+  span {
+    margin-bottom: 16px;
+  }
+
+  h4 {
+    margin-bottom: 8px;
+  }
+}
+
+.classic {
+  padding: 80px 0;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.designFrame {
+  padding: 80px 0;
+  background: url('../assets/images/index-bg.png') center;
+  background-size: cover;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.customerRecommend {
+  li {
+    box-shadow: 0px 2px 6px #00000029;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 2;
+  }
+
+  span {
+    display: block;
+    font-size: 14px;
   }
 }

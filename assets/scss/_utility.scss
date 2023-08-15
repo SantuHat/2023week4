@@ -1,0 +1,23 @@
+.w83-83{
+  font-size: 83.83px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+.mb-96 {
+  margin-bottom: 96px;
+}
+.mb-72 {
+  margin-bottom: 72px;
+}
+.fz-48 {
+  font-size: 48px;
+}
+.fw-black {
+  font-weight: 900;
+}
+.fz-24 {
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
+}

@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>week4</title>
-    <link
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>week4</title>
+  <link
     href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
     rel="stylesheet">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
 
     <div class="banner">
       <div class="container banner_content">
@@ -21,33 +23,126 @@
         <a class="bg-primary fs-5 mt-1 ms-auto" href="#">立即購買</a>
       </div>
     </div>
+    <section class="introduction bg-secondary">
+      <div class="container">
+        <h2 class="text-info fw-bold fs-2">用專業的心，做專業的事</h2>
+        <ul class="row">
+          <li class="col-md-6 col-lg-3 introduction_card">
+            <span class="material-icons-outlined fz-64 text-info w83-83">
+              paid
+            </span>
+            <h4 class="fs-4 text-info fw-bold">單一價格</h4>
+            <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+          </li>
+          <li class="col-md-6 col-lg-3 introduction_card">
+            <span class="material-symbols-outlined fz-64 text-info w83-83">
+              schedule
+            </span>
+            <h4 class="fs-4 text-info fw-bold">20 分鐘即可取件</h4>
+            <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+          </li>
+          <li class="col-md-6 col-lg-3 introduction_card">
+            <span class="material-icons-outlined fz-64 text-info w83-83">
+              favorite_border
+            </span>
+            <h4 class="fs-4 text-info fw-bold">安心售後服務</h4>
+            <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+          </li>
+          <li class="col-md-6 col-lg-3 introduction_card">
+            <span class="material-icons-outlined fz-64 text-info w83-83">
+              voicemail
+            </span>
+            <h4 class="fs-4 text-info fw-bold">關於鏡片</h4>
+            <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <a href="#" class="btn text-secondary">按鈕</a>
-
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
+    <div class="container classic">
+      <h2 class="mb-48 fz-48 text-info fw-bold fz-24">經典系列鏡框</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="../assets/images/home-section3-1.png" alt="black-woman">
+          <h2 class="fs-2 fst-italic text-primary fw-black">OPTICAL</h2>
+        </div>
+        <div class="col-lg-4">
+          <img src="../assets/images/home-section3-2.png" alt="longhair-woman">
+          <h2 class="fs-2 fst-italic text-primary fw-black">SUNGLASSES</h2>
+        </div>
+        <div class="col-lg-4">
+          <img src="../assets/images/home-section3-3.png" alt="oldman">
+          <h2 class="fs-2 fst-italic text-primary fw-black">FUNCTIONAL</h2>
+        </div>
       </div>
     </div>
 
+    <section class="designFrame">
+      <div class="container">
+        <h2 class="text-white fz-48 fw-bold mb-48">聯名設計鏡框</h2>
+        <div class="row">
+          <div class="col-lg-6 px-lg-0 mb-4">
+            <img src="../assets/images/home-section4-1.png" alt="">
+            <h2 class="bg-white fz-48 fst-italic fw-black text-primary py-2">DOUBLE A+</h2>
+          </div>
+          <div class="col-lg-6 px-lg-0">
+            <img src="../assets/images/home-section4-2.png" alt="">
+            <h2 class="bg-white fz-48 fst-italic fw-black text-primary py-2">YOUTH</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container customerRecommend">
+      <h2>顧客推薦</h2>
+      <ul class="row">
+        <li class="col-lg-3 col-md-6 px-md-0">
+          <img src="../assets/images/home-section5-1.png" alt="pink-girl">
+          <p>Jessy</p>
+          <p>眼鏡品質優良，下次還會想來這邊購買！</p>
+          <span>2021/06/20</span>
+        </li>
+        <li class="col-lg-3 col-md-6 px-0">
+          <img src="../assets/images/home-section5-2.png" alt="close-eye-girl">
+          <p>凱倫</p>
+          <p>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+          <span>2021/04/18</span>
+        </li>
+        <li class="col-lg-3 col-md-6 px-0">
+          <div class="c-img">
+
+            <img src="../assets/images/home-section5-3.png" alt="gray-girl">
+          </div>
+          <div class="card_item">
+            <div class="card_item_text">
+              <p>悠悠</p>
+              <p> 謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+            </div>
+            <span>2020/12/25</span>
+          </div>
+        </li>
+        <li class="col-lg-3 col-md-6 px-0">
+          <div class="card">
+            <img src="../assets/images/home-section5-4.png" alt="people-watching-aside">
+            <div class="card-body">
+              <p>Kyuan</p>
+              <p>服務很好，品質沒有任何問題，非常喜歡。</p>
+              <span>2020/10/31</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <a href="#" class="btn text-secondary">按鈕</a>
     <!-- Modal 按鈕 -->
     <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
       打開 modal
     </button>
 
     <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -65,6 +160,7 @@
 
     <%- include('./layout/footer'); -%>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+      <script type="module" src="../main.js"></script>
+</body>
+
 </html>
