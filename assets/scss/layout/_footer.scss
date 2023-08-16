@@ -1,32 +1,42 @@
 footer {
   padding: 48px 0 40px 0;
 }
+
 .footer_main {
   color: #FFFFFF;
+
   .footer_nav {
     padding-top: 12px;
+
     @media (max-width: 767px) {
       display: none;
     }
   }
+
   ul {
     gap: 48px;
   }
+
   .footer_info {
-    h2 , span {
+
+    h2,
+    span {
       font-size: 36px;
       margin-right: 16px;
+
       @media (max-width: 767px) {
         font-size: 16px;
-        margin-right: 10px;
+        margin-right: 8px;
       }
     }
   }
 }
+
 .footer_icon {
   a {
     width: 48px;
     display: block;
+
     @media (max-width: 767px) {
       width: 24px;
       height: 24px;
@@ -38,16 +48,19 @@ footer {
     }
   }
 }
-@media (max-width: 767px){
+
+@media (max-width: 767px) {
   .link-group {
     display: flex;
     flex-direction: column;
     margin-top: 8px;
-    .mt-8{
+
+    .mt-8 {
       margin-top: 8px;
     }
   }
 }
+
 .boder-b {
   border-bottom: 1px solid #FFFFFF;
   margin-bottom: 32px;
