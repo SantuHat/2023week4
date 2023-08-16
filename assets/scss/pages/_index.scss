@@ -112,8 +112,15 @@
     width: 100%;
   }
 
-  .checkbox input {
-    width: auto;
+  .checkbox {
+    display: flex;
+    align-items: start;
+
+    input {
+      width: 20px;
+      height: 20px;
+      accent-color: #aa0601;
+    }
   }
 
 }
