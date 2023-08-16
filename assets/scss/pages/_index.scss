@@ -67,7 +67,13 @@
 }
 
 .customerRecommend {
-  li {
+  padding: 80px 0;
+
+  h2 {
+    text-align: center;
+  }
+
+  .card {
     box-shadow: 0px 2px 6px #00000029;
     border: 1px solid #DEE2E6;
     border-radius: 4px;
@@ -76,14 +82,38 @@
   }
 
   .card_item {
+    min-height: 205px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-grow: 2;
   }
 
   span {
-    display: block;
     font-size: 14px;
+    color: #707070;
   }
+}
+
+.contactUs {
+  background-color: #FBF2F2;
+  padding: 80px 0;
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    font-style: 20px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  .checkbox input {
+    width: auto;
+  }
+
 }
