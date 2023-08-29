@@ -29,20 +29,21 @@
       </ul>
     </div>
     <section class="d-flex">
-      <div class="col-6">
+      <div class="col-6" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
         <img class="header-img" src="../assets/images/product-header-3.png" alt="product-header-3">
       </div>
-      <div class="col-6">
+      <div class="col-6" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
         <img class="header-img" src="../assets/images/product-header-4.png" alt="product-header-4">
       </div>
     </section>
 
-    <h1 class="title text-center">2020 NEW COLLECTION</h1>
-    <h2 class="sub_title text-center mb-5">賽璐珞鈦金屬混合鏡框</h2>
+    <h1 class="title text-center" data-aos="fade-down" data-aos-duration="800">2020 NEW
+      COLLECTION</h1>
+    <h2 class="sub_title text-center mb-5" data-aos="fade-up" data-aos-delay="500">賽璐珞鈦金屬混合鏡框</h2>
 
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-lg-4 mb-4 mb-md-6 mb-lg-9">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-6 mb-lg-9" data-aos="fade-right" data-aos-delay="400">
           <img src="../assets/images/product-7.png" alt="product-7">
           <div class="card_body d-flex justify-content-between">
             <p class="fs-4">BJ41600S</p>
@@ -51,7 +52,7 @@
           <a class="square me-2" href="#"></a>
           <a class="square square-last" href="#"></a>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-md-6 mb-lg-9">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-6 mb-lg-9" data-aos="fade-right" data-aos-delay="500">
           <img src="../assets/images/product-8.png" alt="product-8">
           <div class="card_body d-flex justify-content-between">
             <p class="fs-4">BJ41600S</p>
@@ -60,7 +61,7 @@
           <a class="square me-2" href="#"></a>
           <a class="square square-last" href="#"></a>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-md-6 mb-lg-9">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-6 mb-lg-9" data-aos="fade-right" data-aos-delay="600">
           <img src="../assets/images/product-9.png" alt="product-9">
           <div class="card_body d-flex justify-content-between">
             <p class="fs-4">BJ41600S</p>
@@ -69,7 +70,7 @@
           <a class="square me-2" href="#"></a>
           <a class="square square-last" href="#"></a>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-0" data-aos="fade-right" data-aos-delay="700">
           <img src="../assets/images/product-10.png" alt="product-10">
           <div class="card_body d-flex justify-content-between">
             <p class="fs-4">BJ41600S</p>
@@ -78,7 +79,7 @@
           <a class="square me-2" href="#"></a>
           <a class="square square-last" href="#"></a>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-0" data-aos="fade-right" data-aos-delay="800">
           <img src="../assets/images/product-11.png" alt="product-11">
           <div class="card_body d-flex justify-content-between">
             <p class="fs-4">BJ41600S</p>
@@ -87,7 +88,7 @@
           <a class="square me-2" href="#"></a>
           <a class="square square-last" href="#"></a>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4" data-aos="fade-right" data-aos-delay="900">
           <img src="../assets/images/product-12.png" alt="product-12">
           <div class="card_body d-flex justify-content-between">
             <p class="fs-4">BJ41600S</p>
@@ -132,6 +133,11 @@
     <%- include('./layout/footer'); -%>
 
       <script type="module" src="../main.js"></script>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
